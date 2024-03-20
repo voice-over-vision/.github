@@ -1,7 +1,9 @@
+<!-- header -->
 <div align="center" style="margin-bottom:20px">
     <img src="./assets/logo_banner.png"/>
 </div>
 
+<!-- content -->
 <p align="center">
  <a href="#🎬-demos">Demos</a> •
  <a href="#🚀-features">Features</a> •
@@ -11,14 +13,17 @@
  <a href="#📄-citation">Citation</a>
 </p>
 
+<!-- intro -->
 ## Voice-Over Vision: The future of the internet is accessible
 
 We present **Voice-Over Vision**, a tool that transforms YouTube watching for the visually impaired, making every video more accessible and enjoyable. Like a friend sitting next to you, this Chrome Extension narrates the unseen parts of a video, filling in the blanks where audio alone falls short. It smartly sifts through videos, picking out details that you might miss otherwise, and uses text-to-speech technology to bring those visuals to life through vivid descriptions. With Voice-Over Vision, every story is fully told, ensuring everyone gets the complete picture, no matter what.
 
+<!-- demos -->
 ## 🎬 Demos
 
 **Demos comming soon!**
 
+<!-- features -->
 ## 🚀 Features
 
 - **Real-Time Audio Description**: Generates audio descriptions for YouTube videos, offering a comprehensive viewing experience for visually impaired users.
@@ -33,10 +38,12 @@ We present **Voice-Over Vision**, a tool that transforms YouTube watching for th
 - [ ] **Interruption Frequency Control**: Select how often you'd like the video's original audio to be interrupted with descriptions, ensuring a balanced experience.
 </details>
 
+<!-- installation -->
 ## 💻 Installation
 
 Instructions on how to install and run Voice-Over Vision (soon to be released at Google Chrome Extensions marketplace)
 
+<!-- prerequisites -->
 ### Prerequisites
 
 - Google Chrome or any Chromium-based browser.
@@ -44,6 +51,7 @@ Instructions on how to install and run Voice-Over Vision (soon to be released at
 - Python version: 3.11.8
 - Pip: 24.0
 
+<!-- installation_backend -->
 ### Installing the back-end
 
 #### 1. **Clone the repository**:
@@ -100,6 +108,7 @@ python manage.py runserver
 
 - You can test the backend by navegating to [http://127.0.0.1:8000/get_audio_description?youtubeID=keOaQm6RpBg](http://127.0.0.1:8000/get_audio_description?youtubeID=keOaQm6RpBg)
 
+<!-- intallation_frontend -->
 ### Installing the Chrome Extension
 
 #### 1. **Clone the repository**:
@@ -129,6 +138,7 @@ git clone https://github.com/voice-over-vision/vov-chrome-extension.git
 
 #### 3. Enjoy the magic of Voice-Over Video!✨
 
+<!-- contribution -->
 ## 🌟 Contribution
 
 <table>
@@ -170,6 +180,7 @@ git clone https://github.com/voice-over-vision/vov-chrome-extension.git
   </tbody>
 </table>
 
+<!-- acknowledgments -->
 ## 💎 Acknowledgments
 
 ### Chroma DB
@@ -180,6 +191,7 @@ We extend our heartfelt thanks to the developers and community behind Chroma DB 
 
 Our appreciation goes to the OpenAI team for providing foundational AI technology for our project. The robustness of GPT-4 was instrumental for our project's natural language processing and image processing capabilities.
 
+<!-- citation -->
 ## 📄 Citation
 
 ```bibtex

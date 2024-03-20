@@ -1,6 +1,6 @@
 <!-- header -->
 <div align="center" style="margin-bottom:20px">
-    <img src="./assets/logo_banner.png"/>
+    <img src="https://github.com/voice-over-vision/.github/blob/main/assets/chrome_dev_mode.png?raw=true"/>
 </div>
 
 <!-- content -->
@@ -121,19 +121,19 @@ git clone https://github.com/voice-over-vision/vov-chrome-extension.git
 
 - Open the _Manage Extensions_ page by navigating to `chrome://extensions/` in your Chrome browser.
   <br/><br/>
-  <img src="./assets/chrome_ext_domain.png" width="380px"/>
+  <img src="https://github.com/voice-over-vision/.github/blob/main/assets/chrome_ext_domain.png?raw=true" width="380px"/>
   <br/><br/>
 - Enable _Developer mode_ by toggling the switch at the top-right corner.
   <br/><br/>
-  <img src="./assets/chrome_dev_mode.png" width="220px"/>
+  <img src="https://github.com/voice-over-vision/.github/blob/main/assets/chrome_dev_mode.png?raw=true" width="220px"/>
   <br/><br/>
 - Click on _Load unpacked_ and select the directory of your cloned repository.
   <br/><br/>
-  <img src="./assets/chrome_load_ext.png" width="280px"/>
+  <img src="https://github.com/voice-over-vision/.github/blob/main/assets/chrome_load_ext.png?raw=true" width="280px"/>
   <br/><br/>
 - The extension should now be installed and visible in your Extensions list, you can pin it if you want by clicking the Pin icon.
   <br/><br/>
-  <img src="./assets/chrome_pin_ext.png" width="280px"/>
+  <img src="https://github.com/voice-over-vision/.github/blob/main/assets/chrome_pin_ext.png?raw=true" width="280px"/>
   <br/><br/>
 
 #### 3. Enjoy the magic of Voice-Over Video!✨

@@ -108,7 +108,7 @@ python manage.py runserver
 
 - You can test the backend by navegating to [http://127.0.0.1:8000/get_audio_description?youtubeID=keOaQm6RpBg](http://127.0.0.1:8000/get_audio_description?youtubeID=keOaQm6RpBg)
 
-<!-- intallation_frontend -->
+<!-- installation_frontend -->
 ### Installing the Chrome Extension
 
 #### 1. **Clone the repository**:

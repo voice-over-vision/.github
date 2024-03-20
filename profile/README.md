@@ -1,6 +1,6 @@
 <!-- header -->
 <div align="center" style="margin-bottom:20px">
-    <img src="https://github.com/voice-over-vision/.github/blob/main/assets/chrome_dev_mode.png?raw=true"/>
+    <img src="https://github.com/voice-over-vision/.github/blob/main/assets/logo_banner.png?raw=true"/>
 </div>
 
 <!-- content -->

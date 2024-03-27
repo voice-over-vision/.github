@@ -105,14 +105,21 @@ cd . > .env
 OPENAI_API_KEY={OPENAI_API_KEY} # OPENAI_API_KEY should be replaced by your API_KEY from OpenAI
 ```
 
-#### 4. **Run the server**
+#### 4. **Build the Docker image**
 
 ```sh
 cd ../ # return to the project's root directory
-python manage.py runserver
+docker build -t vov-backend .
 ```
 
-- You can test the backend by navegating to [http://127.0.0.1:8000/get_audio_description?youtubeID=keOaQm6RpBg](http://127.0.0.1:8000/get_audio_description?youtubeID=keOaQm6RpBg)
+#### 4. **Run the Docker image**
+
+```sh
+cd ../ # return to the project's root directory
+docker run -p 8000:8000 vov-backend
+```
+
+After few minutes, everything should be ready to use!
 
 <!-- installation_frontend -->
 

@@ -51,7 +51,7 @@ Instructions on how to install and run Voice-Over Vision (soon to be released at
 
 ### Prerequisites
 
-- Google Chrome or any Chromium-based browser.
+- Google Chrome or any Chromium-based browser (except for Brave, for now).
 - Git installed and configured on your machine
 - Python version: 3.11.8
 - Pip: 24.0

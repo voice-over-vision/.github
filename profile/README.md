@@ -14,16 +14,19 @@
 </p>
 
 <!-- intro -->
+
 ## Voice-Over Vision: The future of the internet is accessible
 
 We present **Voice-Over Vision**, a tool that transforms YouTube watching for the visually impaired, making every video more accessible and enjoyable. Like a friend sitting next to you, this Chrome Extension narrates the unseen parts of a video, filling in the blanks where audio alone falls short. It smartly sifts through videos, picking out details that you might miss otherwise, and uses text-to-speech technology to bring those visuals to life through vivid descriptions. With Voice-Over Vision, every story is fully told, ensuring everyone gets the complete picture, no matter what.
 
 <!-- demos -->
+
 ## 🎬 Demos
 
 [![Voice-Over Video Demo](https://img.youtube.com/vi/6-y6Nq-UWZw/0.jpg)](https://www.youtube.com/watch?v=6-y6Nq-UWZw)
 
 <!-- features -->
+
 ## 🚀 Features
 
 - **Real-Time Audio Description**: Generates audio descriptions for YouTube videos, offering a comprehensive viewing experience for visually impaired users.
@@ -39,11 +42,13 @@ We present **Voice-Over Vision**, a tool that transforms YouTube watching for th
 </details>
 
 <!-- installation -->
+
 ## 💻 Installation
 
 Instructions on how to install and run Voice-Over Vision (soon to be released at Google Chrome Extensions marketplace)
 
 <!-- prerequisites -->
+
 ### Prerequisites
 
 - Google Chrome or any Chromium-based browser.
@@ -52,6 +57,7 @@ Instructions on how to install and run Voice-Over Vision (soon to be released at
 - Pip: 24.0
 
 <!-- installation_backend -->
+
 ### Installing the back-end
 
 #### 1. **Clone the repository**:
@@ -99,16 +105,24 @@ cd . > .env
 OPENAI_API_KEY={OPENAI_API_KEY} # OPENAI_API_KEY should be replaced by your API_KEY from OpenAI
 ```
 
-#### 4. **Run the server**
+#### 4. **Build the Docker image**
 
 ```sh
 cd ../ # return to the project's root directory
-python manage.py runserver
+docker build -t vov-backend .
 ```
 
-- You can test the backend by navegating to [http://127.0.0.1:8000/get_audio_description?youtubeID=keOaQm6RpBg](http://127.0.0.1:8000/get_audio_description?youtubeID=keOaQm6RpBg)
+#### 5. **Run the Docker image**
+
+```sh
+cd ../ # return to the project's root directory
+docker run -p 8000:8000 vov-backend
+```
+
+After few minutes, everything should be ready to use!
 
 <!-- installation_frontend -->
+
 ### Installing the Chrome Extension
 
 #### 1. **Clone the repository**:
@@ -139,6 +153,7 @@ git clone https://github.com/voice-over-vision/vov-chrome-extension.git
 #### 3. Enjoy the magic of Voice-Over Video!✨
 
 <!-- contribution -->
+
 ## 🌟 Contribution
 
 <table>
@@ -177,6 +192,7 @@ git clone https://github.com/voice-over-vision/vov-chrome-extension.git
 </table>
 
 <!-- acknowledgments -->
+
 ## 💎 Acknowledgments
 
 ### Chroma DB
@@ -188,6 +204,7 @@ We extend our heartfelt thanks to the developers and community behind Chroma DB 
 Our appreciation goes to the OpenAI team for providing foundational AI technology for our project. The robustness of GPT-4 was instrumental in our project's natural language processing and image processing capabilities.
 
 <!-- citation -->
+
 ## 📄 Citation
 
 ```bibtex
